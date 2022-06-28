@@ -1,0 +1,232 @@
+/* {
+    border: solid black 1px;
+}*/
+
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: lightgray;
+}
+
+header {
+    width: 98%;
+    left: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    background-color: lightslategray;
+    top: 0;
+    left: 1%;
+    border-radius: 15px;
+}
+
+header > h2 {
+    width: 150px;
+
+    margin: 10px 10px 10px 10px;
+    padding: 10px 0;
+    font-weight: medium 500;
+    font-size: 30px;
+
+}
+
+nav {
+    width: 85%;
+}
+
+.nav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    align-content: center;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+.nav > li {
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+}
+
+main {
+    width: 95%;
+    left: 2.5%;
+    position: relative;
+    top: 100px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.box {
+    border-radius: 15px;
+    background-color: lightsteelblue;
+    margin:  5px 10px;
+}
+
+.left {
+    width: 20%;
+    min-width: 150px;
+    flex-shrink: 1;
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+
+}
+
+.right {
+    width: 77%;
+}
+
+h3 {
+    margin: 5px;
+    padding: 5px;
+    font-weight: regular 400;
+}
+
+#aboutContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#photos {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    margin: 10px;
+    text-align: left;
+    padding: 5px;
+}
+
+.contact {
+    display: flex;
+    justify-content: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 6px;
+
+}
+
+.contact > li {
+    width: 100px;
+    margin: 15px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.button >*:hover {
+    color: white;
+}
+
+.button {
+    border: darkgrey 1px solid;
+    border-radius: 5px;
+    list-style-type: none;
+    padding: 3px;
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+
+}
+
+.button:hover {
+    background-color: darkgrey;
+    color: white;
+    border: white;
+}
+
+:visited {
+    color: black;
+}
+
+.button:active {
+    border: solid black 0px;
+    font-weight: bolder;
+    color: white;
+}
+
+img {
+    border-radius: 15px;
+    border: solid black 1px;
+    margin: 10px;
+}
+
+#projects {
+    flex: none;
+}
+
+#proj-tile-box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tile {
+    min-width: 250px;
+    min-height: 250px;
+    border: solid black 1px;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.tile:hover {
+    border-radius: 50px;
+    border-color: white;
+    color: white;
+}
+
+#proj1 {background-color: rgb(222,157,155);}
+#proj2 {background-color: rgb(251,230,152);}
+#proj3 {background-color: rgb(157,195,132);}
+#proj4 {background-color: rgb(241,158,56);}
+
+.project-page-main {
+    background-color: lightsteelblue;
+    border-radius: 15px;
+    top: 120px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+h1 {
+    margin: 8px;
+}
+
+.big {
+    height: 400px;
+    min-width: 250px;
+    min-height: 250px;
+    border: solid black 1px;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
